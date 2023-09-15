@@ -1,0 +1,33 @@
+.toggle {
+    display: none;
+}
+
+.toggle~.toggle-label .toggle-button-on {
+    display: none;
+}
+
+.toggle:checked~.toggle-label .toggle-button-on {
+    display: block;
+    cursor: pointer;
+}
+
+.toggle~.toggle-label .toggle-button-off {
+    display: block;
+    cursor: pointer;
+}
+
+.toggle:checked~.toggle-label .toggle-button-off {
+    display: none;
+}
+
+.toggle-button {
+    font-size: 40px;
+}
+
+.toggle-button-on {
+    fill: green;
+}
+
+.toggle-button-off {
+    fill: gray;
+}
